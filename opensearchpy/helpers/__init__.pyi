@@ -48,5 +48,7 @@ try:
     from .._async.helpers.actions import async_streaming_bulk as async_streaming_bulk
     from .asyncsigner import AWSV4SignerAsyncAuth as AWSV4SignerAsyncAuth
     from .signer import AWSV4SignerAuth as AWSV4SignerAuth
+    from .._async.helpers.faceted_search import AsyncFacetedSearch
+    from .._async.helper.search import AsyncSearch
 except (ImportError, SyntaxError):
     pass
