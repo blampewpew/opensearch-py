@@ -49,6 +49,6 @@ try:
     from .asyncsigner import AWSV4SignerAsyncAuth as AWSV4SignerAsyncAuth
     from .signer import AWSV4SignerAuth as AWSV4SignerAuth
     from .._async.helpers.faceted_search import AsyncFacetedSearch
-    from .._async.helper.search import AsyncSearch
+    from .._async.helpers.search import AsyncSearch
 except (ImportError, SyntaxError):
     pass
