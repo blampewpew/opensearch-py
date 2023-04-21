@@ -130,6 +130,8 @@ try:
     from ._async.transport import AsyncTransport as AsyncTransport
     from .helpers import AWSV4SignerAsyncAuth as AWSV4SignerAsyncAuth
     from .helpers import AWSV4SignerAuth as AWSV4SignerAuth
+    from ._async.helpers.faceted_search import AsyncFacetedSearch as AsyncFacetedSearch
+    from ._async.helpers.search import AsyncSearch as AsyncSearch
 except (ImportError, SyntaxError):
     pass
 
