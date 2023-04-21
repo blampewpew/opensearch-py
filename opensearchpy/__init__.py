@@ -250,8 +250,6 @@ try:
     from ._async.http_aiohttp import AIOHttpConnection, AsyncConnection
     from ._async.transport import AsyncTransport
     from .connection import AsyncHttpConnection
-    from ._async.helpers.faceted_search import AsyncFacetedSearch
-    from ._async.helpers.search import AsyncSearch
 
     __all__ += [
         "AIOHttpConnection",
@@ -259,8 +257,6 @@ try:
         "AsyncTransport",
         "AsyncOpenSearch",
         "AsyncHttpConnection",
-        "AsyncFacetedSearch",
-        "AsyncSearch",
     ]
 except (ImportError, SyntaxError):
     pass
